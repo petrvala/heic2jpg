@@ -16,7 +16,7 @@ for source_file in source_dir.iterdir():
         target_file = p.joinpath(target_dir, target_file_name)
         print(f"Converting {source_file} -> {target_file}")
         img = Image(filename=source_file)
-        img.format = 'jpg'
+        img.format = "jpg"
         img.save(filename=target_file)
         img.close()
     else:

@@ -133,4 +133,6 @@ dmypy.json
 
 # Image data
 src/heic/*
+!src/heic/readme.txt
 src/jpg/*
+!src/jpg/readme.txt
